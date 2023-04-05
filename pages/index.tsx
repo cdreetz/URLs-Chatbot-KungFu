@@ -17,7 +17,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi there its Tom! What would like to learn about notion?',
+        message: 'Hi there its Tom! What would like to learn about KungFu?',
         type: 'apiMessage',
       },
     ],
@@ -124,7 +124,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Thomas Frank Notion Guide ChatBot
+            KungFu Case Study ChatBot
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -189,7 +189,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'How does notion api work?'
+                        : 'Does KungFu have experience creating automated pricing tools?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -222,7 +222,7 @@ export default function Home() {
         </div>
         <footer className="m-auto">
           <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChain. Demo built by Mayo (Twitter: @mayowaoshin).
+            Powered by LangChain.
           </a>
         </footer>
       </Layout>
