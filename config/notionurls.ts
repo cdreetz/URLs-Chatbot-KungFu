@@ -7,7 +7,19 @@ export const urls = [
   'https://www.kungfu.ai/case-study/auto-valuation-model',
   'https://www.kungfu.ai/case-study/donor-matching',
   'https://www.kungfu.ai/case-study/collectibles-company',
-  'https://www.kungfu.ai/case-study/augmented-ecommerce-sell-through'
-
-
+  'https://www.kungfu.ai/case-study/augmented-ecommerce-sell-through',
+  'https://www.kungfu.ai/case-study/planogram-identification-in-retail',
+  'https://www.kungfu.ai/case-study/nlp-for-audio-search',
+  'https://www.kungfu.ai/case-study/recommendation-engine',
+  'https://www.kungfu.ai/case-study/proposal-vetting',
+  'https://www.kungfu.ai/case-study/consumer-social-graph-insights-2',
+  'https://www.kungfu.ai/case-study/paper-to-digital',
+  'https://www.kungfu.ai/case-study/data-brokering',
+  'https://www.kungfu.ai/case-study/iad-personalization-engine',
+  'https://www.kungfu.ai/case-study/price-comparison',
+  'https://www.kungfu.ai/case-study/ecommerce-recommendation-system',
+  'https://www.kungfu.ai/case-study/automated-managed-services',
+  'https://www.kungfu.ai/case-study/predictive-advertising',
+  'https://www.kungfu.ai/case-study/augmented-advertising',
+  'https://www.kungfu.ai/case-study/art-marketplace'
 ];

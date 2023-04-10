@@ -17,7 +17,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi there its Tom! What would like to learn about KungFu?',
+        message: 'Hi there its KF! What would like to learn about KungFu?',
         type: 'apiMessage',
       },
     ],
@@ -135,7 +135,7 @@ export default function Home() {
                   if (message.type === 'apiMessage') {
                     icon = (
                       <Image
-                        src="/Thomas-Frank-Avatar.jpg"
+                        src="/KF.png"
                         alt="AI"
                         width="40"
                         height="40"
