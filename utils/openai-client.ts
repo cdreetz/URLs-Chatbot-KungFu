@@ -9,7 +9,7 @@ export const openai = new OpenAI({
 });
 
 export const openaiStream = new OpenAI({
-  temperature: 0,
+  temperature: 0.5,
   streaming: true,
   callbackManager: {
     handleNewToken(token) {
