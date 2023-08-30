@@ -37,7 +37,7 @@ export const makeChain = (
   const docChain = loadQAChain(
     new OpenAI({
       temperature: 0.5,
-      modelName: 'gpt-3.5-turbo', // change this to the version of gpt you have access too either gpt-4 or 3.5-turbo
+      modelName: 'gpt-4', // change this to the version of gpt you have access too either gpt-4 or 3.5-turbo
       streaming: Boolean(onTokenStream),
       callbackManager: {
         handleNewToken: onTokenStream,
